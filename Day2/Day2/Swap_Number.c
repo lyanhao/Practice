@@ -10,17 +10,17 @@ void Swap(int* x, int* y)
 	*x = *y;
 	*y = temp;
 }
-int main1()
+int main()
 {
 	int num_1 = 0;
 	int num_2 = 0;
-	printf("请输入num1的值：");
+	printf("璇疯緭鍏um1鐨勫�硷細");
 	scanf("%d",&num_1);
-	printf("请输入num2的值：");
+	printf("璇疯緭鍏um2鐨勫�硷細");
 	scanf("%d", &num_2);
-	printf("交换前Num1=%d,Num2=%d\n", num_1, num_2);
+	printf("浜ゆ崲鍓峃um1=%d,Num2=%d\n", num_1, num_2);
 	Swap(&num_1, &num_2);
-	printf("交换后Num1=%d,Num2=%d\n", num_1, num_2);
+	printf("浜ゆ崲鍚嶯um1=%d,Num2=%d\n", num_1, num_2);
 	system("pause");
 	return 0;
 }

@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-int main1()
+int main()
 {
 	int i = 0;
 	int j = 0;
