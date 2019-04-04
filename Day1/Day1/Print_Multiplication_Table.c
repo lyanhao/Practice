@@ -2,7 +2,7 @@
 
 #include <stdio.h> 
 #include <stdlib.h>
-int main2()
+int main()
 {
 	int i = 0;
 	int j = 0;
