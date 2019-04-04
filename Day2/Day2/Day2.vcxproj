@@ -64,6 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Find_the_Max.c" />
     <ClCompile Include="Swap_Number.c" />
     <ClCompile Include="Swap_Number_without_tem.c" />
   </ItemGroup>

@@ -21,5 +21,8 @@
     <ClCompile Include="Swap_Number_without_tem.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Find_the_Max.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
