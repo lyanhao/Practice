@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-int main3()
+int main()
 {
 	int year;
 	int i = 0;
