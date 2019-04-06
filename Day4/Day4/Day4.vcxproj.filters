@@ -21,5 +21,8 @@
     <ClCompile Include="Summation.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Count_Num9.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

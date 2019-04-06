@@ -64,6 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Count_Num9.c" />
     <ClCompile Include="Summation.c" />
     <ClCompile Include="Swap_Array.c" />
   </ItemGroup>
