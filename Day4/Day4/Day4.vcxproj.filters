@@ -18,5 +18,8 @@
     <ClCompile Include="Swap_Array.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Summation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
