@@ -34,8 +34,6 @@ int main(){
 	printf("请输入你要查询第几个斐波那契数：");
 	scanf("%d",&n);
 	printf("%d\n", fib2(n));
-
-
 	system("pause");
 	return 0;
 }
