@@ -1,7 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
 #define MAX 10000
-//自定义判断素数的范围
 
 #include <stdio.h>
 #include <stdlib.h>
