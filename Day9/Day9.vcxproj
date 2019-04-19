@@ -64,8 +64,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DigitSum.c" />
     <ClCompile Include="Fibonacci_Number.c" />
     <ClCompile Include="n^k.c" />
+    <ClCompile Include="n！.c" />
+    <ClCompile Include="Print_Every_Num.c" />
+    <ClCompile Include="Reverse_String.c" />
+    <ClCompile Include="Strlen.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

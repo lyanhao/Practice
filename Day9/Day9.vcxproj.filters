@@ -21,5 +21,20 @@
     <ClCompile Include="n^k.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DigitSum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Reverse_String.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Strlen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="n！.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Print_Every_Num.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
