@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{93C4C940-E31D-4951-A06E-B822D0E1D832}</ProjectGuid>
-    <RootNamespace>Day1</RootNamespace>
+    <ProjectGuid>{89A1798D-D8DF-4992-8513-5C0F53B5A352}</ProjectGuid>
+    <RootNamespace>Day12</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,10 +64,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="is_Prime_Number.c" />
-    <ClCompile Include="Judge_Leap_Year.c" />
-    <ClCompile Include="Print_Multiplication_Table.c" />
-    <ClCompile Include="test.c" />
+    <ClCompile Include="Diving_Competition.c" />
+    <ClCompile Include="Murder.c" />
+    <ClCompile Include="Pascal%27s_Triangle.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="is_Prime_Number.c">
+    <ClCompile Include="Diving_Competition.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Print_Multiplication_Table.c">
+    <ClCompile Include="Murder.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Judge_Leap_Year.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="Pascal%27s_Triangle.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
