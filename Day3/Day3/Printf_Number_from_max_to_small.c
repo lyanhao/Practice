@@ -1,31 +1,34 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
-#define NUMBER 3    //ÒªÅÅĞòµÄÊı×é´óĞ¡
+#define NUMBER 3    //è¦æ’åºçš„æ•°ç»„å¤§å°
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-	int arr[NUMBER] = { 0 };    //³õÊ¼»¯Êı×é
+int main() {
+	int arr[NUMBER] = { 0 };    //åˆå§‹åŒ–æ•°ç»„
 	int i = 0;
 	int j = 0;
 	int temp = 0;
-	//1.ÊäÈëÒªÅÅĞòµÄÊı×é
-	printf("ÇëÊäÈëÊı×Ö£º");
-	for (i = 0; i < NUMBER; i++){
+	
+	//1.è¾“å…¥è¦æ’åºçš„æ•°ç»„
+	printf("è¯·è¾“å…¥æ•°å­—ï¼š");
+	for (i = 0; i < NUMBER; i++) {
 		scanf("%d", &arr[i]);
 	}
-	//2.Ã°ÅİÅÅĞò
-	for (j = 0; j < NUMBER; j++){
-		for (i = 0; i < NUMBER - j; i++){
-			if (arr[i] < arr[i + 1]){
+	
+	//2.å†’æ³¡æ’åº
+	for (j = 0; j < NUMBER; j++) {
+		for (i = 0; i < NUMBER - j; i++) {
+			if (arr[i] < arr[i + 1]) {
 				temp = arr[i];
 				arr[i] = arr[i + 1];
 				arr[i + 1] = temp;
 			}
 		}
 	}
-	//3.´òÓ¡Êı×é
-	for (i = 0; i <= NUMBER - 1; i++){
+	
+	//3.æ‰“å°æ•°ç»„
+	for (i = 0; i <= NUMBER - 1; i++) {
 		printf("%d", arr[i]);
 	}
 	system("pause");
