@@ -6,15 +6,14 @@
 
 //Sn=a+aa+aaa+aaaa+aaaaa
 
-int main(){
+int main() {
 	int i = 0;
 	int n = 0;
 	int sum = 0, tmp = 0;
 
 	scanf("%d", &n);
 
-	for (i = 0; i < 5; i++)
-	{
+	for (i = 0; i < 5; i++) {
 		tmp = tmp * 10 + n;
 		sum += tmp;
 	}
