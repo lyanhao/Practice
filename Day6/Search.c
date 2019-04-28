@@ -3,17 +3,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int search(int arr[], int key, int left, int right){
-	while (left <= right){
+int search(int arr[], int key, int left, int right) {
+	while (left <= right) {
 		int mid = left + (right - left) / 2;
 
-		if (arr[mid] > key){
+		if (arr[mid] > key) {
 			right = mid - 1;
 		}
-		if (arr[mid] < key){
+		if (arr[mid] < key) {
 			left = mid + 1;
 		}
-		if (arr[mid] == key){
+		if (arr[mid] == key) {
 			return mid;
 		}
 	}
@@ -25,17 +25,17 @@ int main(){
 	int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 	int key = 0;
 
-	printf("ÇëÊäÈëÒªÕÒµÄÊý:");
+	printf("è¯·è¾“å…¥è¦æ‰¾çš„æ•°:");
 	scanf("%d", &key);
 
 	int sz = sizeof(arr) / sizeof(arr[0]) - 1;
 
 	int ret = search(arr, key, 0, sz);
-	if (ret == -1){
-		printf("ÕÒ²»µ½\n");
+	if (ret == -1) {
+		printf("æ‰¾ä¸åˆ°\n");
 	}
-	else{
-		printf("ÕÒµ½ÁË£º%d\n", ret);
+	else {
+		printf("æ‰¾åˆ°äº†ï¼š%d\n", ret);
 	}
 	system("pause");
 	return 0;
