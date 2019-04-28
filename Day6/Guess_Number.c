@@ -4,26 +4,26 @@
 #include <stdlib.h>
 #include <time.h>
 
-void meun(){
+void meun() {
 	printf("**************************\n");
 	printf("******    1.play    ******\n");
 	printf("******    0.exit    ******\n");
 	printf("**************************\n");
 }
 
-void game(int s){
+void game(int s) {
 	int b = 0;
-	printf("请输入你猜的值：\n");
-	while (1){
+	printf("璇疯緭鍏ヤ綘鐚滅殑鍊硷細\n");
+	while (1) {
 		scanf("%d", &b);
-		if (s > b){
-			printf("猜小了\n");
+		if (s > b) {
+			printf("鐚滃皬浜哱n");
 		}
-		if (s < b){
-			printf("猜大了\n");
+		if (s < b) {
+			printf("鐚滃ぇ浜哱n");
 		}
-		if (s == b){
-			printf("恭喜你，猜对了！\n");
+		if (s == b) {
+			printf("鎭枩浣狅紝鐚滃浜嗭紒\n");
 			break;
 		}
 
@@ -31,18 +31,18 @@ void game(int s){
 
 }
 
-int main(){
+int main() {
 	srand((unsigned)time(0));
 	int s = rand() % 100;
 	int a = 0;
 
-	do{
+	do {
 		meun();
 		scanf("%d", &a);
-		if (a == 1){
+		if (a == 1) {
 			game(s);
 		}
-	}while (a != 0);
+	} while (a != 0);
 
 	return 0;
 }
