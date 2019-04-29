@@ -3,12 +3,12 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main() {
 
 	int ch;
-	printf("ÇëÊäÈëÒ»¸ö×Ö·û:\n");
+	printf("Ã‡Ã«ÃŠÃ¤ÃˆÃ«Ã’Â»Â¸Ã¶Ã—Ã–Â·Ã»:\n");
 
-	while ((ch = getchar()) != EOF){
+	while ((ch = getchar()) != EOF) {
 		if (ch >= 'a'&&ch <= 'z')
 			printf("%c\n", ch - 32);
 		else
