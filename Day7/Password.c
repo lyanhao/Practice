@@ -3,23 +3,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main1(){
+int main1() {
 	char password[10] = { 0 };
 	int i = 0;
-	for (i = 0; i < 3; i++){
-		printf("ÇëÊäÈëÃÜÂë\n");
+	for (i = 0; i < 3; i++) {
+		printf("è¯·è¾“å…¥å¯†ç \n");
 		scanf("%s", password);
-		if (0 == strcmp(password, "123456")){
-			printf("µÇÂ¼³É¹¦\n");
+		if (0 == strcmp(password, "123456")) {
+			printf("ç™»å½•æˆåŠŸ\n");
 			break;
 		}
-		else{
-			printf("ÃÜÂë´íÎó£¬ÇëÖØÐÂÊäÈë\n");
+		else {
+			printf("å¯†ç é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥\n");
 		}
 	}
 
-	if (3 == i){
-		printf("µÇÂ¼Ê§°Ü\n");
+	if (3 == i) {
+		printf("ç™»å½•å¤±è´¥\n");
 	}
 	system("pause");
 	return 0;
