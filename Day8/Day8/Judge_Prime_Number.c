@@ -6,27 +6,27 @@
 #include <stdlib.h>
 #include <math.h>
 
-int Judge(int n){
+int Judge(int n) {
 	int i = 0;
 	int tmp = 0;
 	tmp = sqrt(n);
-	for (i = 2; i <= tmp; i++){
-		if (n % i == 0){
+	for (i = 2; i <= tmp; i++) {
+		if (n % i == 0) {
 			return 0;
 		}
 	}
 	return 1;
 }
 
-int main(){
+int main() {
 	int i = 0;
 	int count = 0;
 
-	for (i = 2; i < MAX; i++){
+	for (i = 2; i < MAX; i++) {
 		if (Judge(i)){
 			printf("%4d ", i);
 			count++;
-			if (count % 10 == 0){
+			if (count % 10 == 0) {
 				putchar('\n');
 			}
 		}
