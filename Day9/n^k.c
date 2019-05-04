@@ -2,9 +2,9 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-int function(int n, int k){
+int function(int n, int k) {
 	int sum = 0;
-	if (k == 0){
+	if (k == 0) {
 		sum = 1;
 	}
 	else {
@@ -13,7 +13,7 @@ int function(int n, int k){
 	return sum;
 }
 
-int main(){
+int main() {
 	int bot = 0;
 	int ind = 0;
 	scanf("%d%d", &bot, &ind);
