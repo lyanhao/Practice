@@ -5,7 +5,7 @@
 #include <string.h>
 
 int Factorial_r(int num) {
-	//·Çµİ¹éÊµÏÖ
+	//éé€’å½’å®ç°
 	int k = 1;
 	while (num > 0) {
 		k *= num--;
@@ -14,18 +14,17 @@ int Factorial_r(int num) {
 }
 
 int Factorial(int num) {
-	//µİ¹éÊµÏÖ
+	//é€’å½’å®ç°
 	return num > 0 ? num * Factorial(num - 1) : 1;
 }
 
-int main()
-{
+int main() {
 	int n = 0;
 
-	printf("ÇëÊäÈëÒ»¸öÊı£¬ÇóËûµÄ½×³Ë:\n");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼Œæ±‚ä»–çš„é˜¶ä¹˜:\n");
 	scanf("%d", &n);
-	printf("µİ¹é½á¹ûÎª%d\n", Factorial(n));
-	printf("·Çµİ¹é½á¹ûÎª%d\n", Factorial_r(n));
+	printf("é€’å½’ç»“æœä¸º%d\n", Factorial(n));
+	printf("éé€’å½’ç»“æœä¸º%d\n", Factorial_r(n));
 	system("pause");
 	return 0;
 }
