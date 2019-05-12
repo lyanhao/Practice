@@ -4,8 +4,7 @@
 #include <stdlib.h>
 
 void Reverse_String(char *string) {
-	if (*string != '\0')
-	{
+	if (*string != '\0') {
 		string++;
 		Reverse_String(string);
 		printf("%c", *(string - 1));
