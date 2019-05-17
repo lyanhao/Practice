@@ -17,11 +17,9 @@ int DigitSum(int n) {
 int main() {
 	int n = 0;
 	int num = 0;
-
-	printf("ÇëÊäÈëÒ»¸ö·Ç¸ºÕûÊı£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªéè´Ÿæ•´æ•°ï¼š");
 	scanf("%d", &n);
-	printf("×é³É¸ÃÊı×ÖµÄ¸÷¸öÎ»Ö®ºÍÎª%d\n£º", DigitSum(n));
+	printf("ç»„æˆè¯¥æ•°å­—çš„å„ä¸ªä½ä¹‹å’Œä¸º%d\nï¼š", DigitSum(n));
 	system("pause");
 	return 0;
-
 }
